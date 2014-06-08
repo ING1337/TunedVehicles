@@ -40,10 +40,10 @@ PlaneBoost = {
 	[85] = {UP = 200 / 3.6, ACC = 30}, --bering
 }
 
--- Backward flying plane
+-- Backward flying planes
 PlaneBackwardFly = {
 	KEY  = 65, -- Action.PlaneDecTrust
-	[30] = {DOWN = 0.5, DEC = 40}, --fightjet , MIN = -20
+	[39] = {DOWN = 0.5, DEC = 40}, --airbus
 }
 
 -- Increase velocity
@@ -86,7 +86,7 @@ TunesLibrary = {
 --		[62] = FastForward,  --chippewa
 
 --      change planes to boost
---		[30] = PlaneBackwardFly, --fightjet
+--		[39] = PlaneBackwardFly, --airbus
 -- 		[59] = PlaneBoost, --airhawk
 --		[51] = PlaneBoost, --personal jet
 --		[85] = PlaneBoost, --bering
