@@ -15,6 +15,7 @@
 --        You have to define a DEC value when using this trigger, use 0 to not change the deceleration
 --        You also can define a optional MIN value to limit the backward velocity
 
+-- MAX and -ACC blocking wheels on cars when up triggered
 -- All values are in m/s! Divide by 3.6 to use km/h.
 
 -- #################################################################################################################################
@@ -39,7 +40,7 @@ PlaneBoost = {
 	[85] = {UP = 200 / 3.6, ACC = 30}, --bering
 }
 
--- Boost the plane when hold down shift and flying faster than 200 km/h
+-- Backward flying plane
 PlaneBackwardFly = {
 	KEY  = 65, -- Action.PlaneDecTrust
 	[30] = {DOWN = 0.5, DEC = 40}, --fightjet , MIN = -20
@@ -49,8 +50,8 @@ PlaneBackwardFly = {
 FastForward = {
 	KEY  = 30, --Action.MoveForward 
 	 [2] = {UP = 0, ACC = 25}, --titus
-	 [6] = {UP = 0, ACC = 10}, --sailboat
-	[62] = {UP = 20 / 3.6, ACC = 30}, --chippewa
+	 [6] = {UP = 0, ACC = 10, MAX = 500 / 3.6}, --sailboat
+	[62] = {UP = 20 / 3.6, ACC = 30, MAX = 500 / 3.6}, --chippewa
 }
 
 -- Increased backwards velocity and limit it to 200 km/h
