@@ -23,13 +23,13 @@
 -- Realistic plane reversing
 PlaneReverse = {
 	KEY  = 65, -- Action.PlaneDecTrust
-	[59] = {DOWN = 0.5, DEC =  5, MIN = -10}, --airhawk
-	[81] = {DOWN = 0.5, DEC = 10, MIN = -20}, --silverbolt
-	[51] = {DOWN = 0.5, DEC =  7, MIN = -10}, --personal jet
-	[34] = {DOWN = 0.5, DEC =  7, MIN = -10}, --eclipse
-	[30] = {DOWN = 0.5, DEC =  7, MIN = -15}, --fightjet
-	[39] = {DOWN = 0.5, DEC =  6, MIN =  -6}, --airbus
-	[85] = {DOWN = 0.5, DEC =  6, MIN =  -5}, --bering
+	[59] = {DOWN = 1, DEC =  5, MIN = -10}, --airhawk
+	[81] = {DOWN = 1, DEC = 10, MIN = -20}, --silverbolt
+	[51] = {DOWN = 1, DEC =  7, MIN = -10}, --personal jet
+	[34] = {DOWN = 1, DEC =  7, MIN = -10}, --eclipse
+	[30] = {DOWN = 1, DEC =  7, MIN = -15}, --fightjet
+	[39] = {DOWN = 1, DEC =  6, MIN =  -6}, --airbus
+	[85] = {DOWN = 1, DEC =  6, MIN =  -5}, --bering
 }
 
 -- Boost the plane when hold down shift and flying faster than 200 km/h
