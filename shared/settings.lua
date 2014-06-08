@@ -80,7 +80,7 @@ TunesLibrary = {
 		[39] = PlaneReverse, --airbus
 		[85] = PlaneReverse, --bering
 		
---      comment a line to enable / disable tuning
+--		comment a line to enable / disable tuning
 --		 [2] = FastForward,  --titus
 --		 [6] = FastForward,  --sailboat
 --		[62] = FastForward,  --chippewa
