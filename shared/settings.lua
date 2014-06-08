@@ -54,10 +54,10 @@ FastForward = {
 	[62] = {UP = 20 / 3.6, ACC = 30, MAX = 500 / 3.6}, --chippewa
 }
 
--- Increased backwards velocity and limit it to 200 km/h
+-- Increased backwards velocity
 FastBackward = {
 	KEY  = 31, --Action.MoveBackward
-	 [2] = {DOWN = -10, DEC = 15, MIN = -200 / 3.6}, --titus
+	 [2] = {DOWN = -10, DEC = 15, MIN = -300 / 3.6}, --titus
 }
 
 -- #################################################################################################################################
