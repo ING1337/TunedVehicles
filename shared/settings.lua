@@ -15,7 +15,7 @@
 --        You have to define a DEC value when using this trigger, use 0 to not change the deceleration
 --        You also can define a optional MIN value to limit the backward velocity
 
--- MAX and -ACC blocking wheels on cars when up triggered
+-- MAX and -ACC blocking wheels on cars
 -- All values are in m/s! Divide by 3.6 to use km/h.
 
 -- #################################################################################################################################
@@ -65,6 +65,7 @@ FastBackward = {
 -- <<< LIBRARY >>>
 
 -- The library contains the preset bindings, the set can be change during the runtime with: Events:Fire("ChangeTunePresets", "<SetName>")
+-- Fire that event on client sode to set a individual preset for the player
 -- Complete library can changed in the last line of client and server script
 
 TunesLibrary = {
