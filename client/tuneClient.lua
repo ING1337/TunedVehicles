@@ -11,8 +11,8 @@ function TunedVehicles:__init(library, presets)
 	self.type    = nil
 	self.model   = nil
 	
-	Network:Subscribe("TunePresets", self, self.SetPresets)
-	Events:Subscribe("TunePresets", self, self.SetPresets)
+	Network:Subscribe("ChangeTunePresets", self, self.SetPresets)
+	Events:Subscribe("ChangeTunePresets", self, self.SetPresets)
 	
 	Events:Subscribe("LocalPlayerEnterVehicle", self, self.EnterVehicle)
 	Events:Subscribe("LocalPlayerExitVehicle", self, self.ExitVehicle)
