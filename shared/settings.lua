@@ -81,9 +81,10 @@ TunesLibrary = {
 		[85] = PlaneReverse, --bering
 		
 --		comment a line to enable / disable tuning
---		 [2] = FastForward,  --titus
---		 [6] = FastForward,  --sailboat
---		[62] = FastForward,  --chippewa
+--		 [2] = FastBackward, --titus
+--		 [2] = FastForward, --titus
+--		 [6] = FastForward, --sailboat
+--		[62] = FastForward, --chippewa
 
 --		[39] = PlaneBackwardFly, --airbus
 -- 		[59] = PlaneBoost, --airhawk
