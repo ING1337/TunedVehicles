@@ -85,7 +85,6 @@ TunesLibrary = {
 --		 [6] = FastForward,  --sailboat
 --		[62] = FastForward,  --chippewa
 
---      change planes to boost
 --		[39] = PlaneBackwardFly, --airbus
 -- 		[59] = PlaneBoost, --airhawk
 --		[51] = PlaneBoost, --personal jet
