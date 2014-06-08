@@ -65,7 +65,7 @@ FastBackward = {
 -- <<< LIBRARY >>>
 
 -- The library contains the preset bindings, the set can be change during the runtime with: Events:Fire("ChangeTunePresets", "<SetName>")
--- Fire that event on client sode to set a individual preset for the player
+-- Fire that event on client side to set a individual preset for the player
 -- Complete library can changed in the last line of client and server script
 
 TunesLibrary = {
