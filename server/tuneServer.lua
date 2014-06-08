@@ -26,7 +26,7 @@ end
 
 function TunedVehicles:SetPresets(args)
 	self.presets = args or "Default"
-	Network:Broadcast("TunePresets", args)
+	Network:Broadcast("ChangeTunePresets", args)
 end
 
 function TunedVehicles:StartTune(args, player)
