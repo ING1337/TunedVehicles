@@ -50,7 +50,7 @@ PlaneBackwardFly = {
 FastForward = {
 	KEY  = 30, --Action.MoveForward 
 	 [2] = {UP = 0, ACC = 25}, --titus
-	 [6] = {UP = 0, ACC = 10, MAX = 500 / 3.6}, --sailboat
+	 [6] = {UP = 0, ACC = 10, MAX = 400 / 3.6}, --sailboat
 	[62] = {UP = 20 / 3.6, ACC = 30, MAX = 500 / 3.6}, --chippewa
 }
 
