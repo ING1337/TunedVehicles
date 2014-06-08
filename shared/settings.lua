@@ -9,11 +9,11 @@
 
 --   UP = A upwards going velocity trigger, turns on when the vehicle velocity is bigger than UP
 --        You have to define a ACC value when using this trigger, use 0 to not change the acceleration
---        You also can define a optional MAX value to limit the forwards velocity
+--        You also can define a optional MAX value to limit the forward velocity
 		  
 -- DOWN = A downwards going velocity trigger, turns on when the vehicle velocity is lower than DOWN
 --        You have to define a DEC value when using this trigger, use 0 to not change the deceleration
---        You also can define a optional MIN value to limit the backwards velocity
+--        You also can define a optional MIN value to limit the backward velocity
 
 -- All values are in m/s! Divide by 3.6 to use km/h.
 
