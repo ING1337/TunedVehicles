@@ -86,7 +86,7 @@ TunesLibrary = {
 
 --      change planes to boost
 --		[30] = PlaneBackwardFly, --fightjet
---      [59] = PlaneBoost, --airhawk
+-- 		[59] = PlaneBoost, --airhawk
 --		[51] = PlaneBoost, --personal jet
 --		[85] = PlaneBoost, --bering
 	}
